@@ -8,3 +8,8 @@
   text-indent: 110%;
   overflow: hidden;
 }
+@mixin flex($justify-content: 'center', $align-item: 'center') {
+  display: flex;
+  justify-content: #{$justify-content};
+  align-items: #{$align-item};
+}
